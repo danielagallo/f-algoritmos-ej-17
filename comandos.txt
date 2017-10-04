@@ -1,0 +1,218 @@
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ echo "# f-algoritmos-ej-17" >> README.md
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git init
+Initialized empty Git repository in C:/Users/Salas/Documents/Programacion-algoritmos/f-algoritmos-ej-2017/.git/
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -m "first commit"
+[master (root-commit) 00cc4d2] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 233 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/danielagallo/f-algoritmos-ej-17.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        principal.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        principal.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git add principal.txt
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -m -a "Ciclo Repetitivo"
+error: pathspec 'Ciclo Repetitivo' did not match any file(s) known to git.
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push
+Everything up-to-date
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git add principal.txt
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -m -a"Ciclo Repetitivo"
+[master 22e64ac] -aCiclo Repetitivo
+ 1 file changed, 2 insertions(+)
+ create mode 100644 principal.txt
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 390 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/danielagallo/f-algoritmos-ej-17.git
+   00cc4d2..22e64ac  master -> master
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   principal.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -m -a"Ciclo Repetitivo"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   principal.txt
+
+no changes added to commit
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push
+Everything up-to-date
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -m -a"-aCiclo Repetitivo"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   principal.txt
+
+no changes added to commit
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push
+Everything up-to-date
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git commit -a -m"Ciclo Repetitivo"
+[master 1744a35] Ciclo Repetitivo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 396 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/danielagallo/f-algoritmos-ej-17.git
+   22e64ac..1744a35  master -> master
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$ history
+    1  echo "# f-algoritmos-ej-17" >> README.md
+    2  git init
+    3  git agregar README.md
+    4  git commit -m "primer commit"
+    5  git remote añadir origen https://github.com/danielagallo/f-algoritmos-ej -17.git
+    6  pwd
+    7  cd Documents/
+    8  cd Programacion-algoritmos/
+    9  ls
+   10  cd f-algoritmos-ej-17/
+   11  echo "# f-algoritmos-ej-17" >> README.md
+   12  git init
+   13  git add README.md
+   14  git commit -m "primer comentario"
+   15  git remote add origin https://github.com/danielagallo/f-algortimos-ej-17.git
+   16  git config --global user.email "gc_danieladc@hotmail.com"
+   17  git config --global user.name "Daniela"
+   18  echo "# f-algoritmos-ej-17" >>README.md
+   19  git init
+   20  git add README.md
+   21  git commit -m "first commit"
+   22  git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+   23  git push -u origin master
+   24  echo "# f-algoritmos-ej-17" >> README.md
+   25  git init
+   26  git add README.md
+   27  git commit -m "first commit"
+   28  git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+   29  git push -u origin master
+   30  git push -u origin master
+   31  echo "# f-algoritmos-ej-17" >> README.md
+   32  git init
+   33  git add README.md
+   34  git commit -m "first commit"
+   35  git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+   36  git push -u origin master
+   37  echo "# f-algoritmos-ej-17" >> README.md
+   38  git init
+   39  git add README.md
+   40  git commit -m "first commit"
+   41  git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+   42  git push -u origin master
+   43  ls
+   44  cd Documents/
+   45  cd Programacion-algoritmos/
+   46  cd f-algoritmos-ej-17/.git/
+   47  ls
+   48  cd ..
+   49  git push -u origin master
+   50  echo "# f-algoritmos-ej-17" >> README.md
+   51  git init
+   52  git add README.md
+   53  git commit -m "first commit"
+   54  git remote add origin https://github.com/danielagallo/f-algoritmos-ej-17.git
+   55  git push -u origin master
+   56  git status
+   57  git status
+   58  git add principal.txt
+   59  git commit -m -a "Ciclo Repetitivo"
+   60  git push
+   61  git add principal.txt
+   62  git commit -m -a"Ciclo Repetitivo"
+   63  git push
+   64  git status
+   65  git status
+   66  git commit -m -a"Ciclo Repetitivo"
+   67  git push
+   68  git commit -m -a"-aCiclo Repetitivo"
+   69  git push
+   70  git commit -a -m"Ciclo Repetitivo"
+   71  git push
+   72  history
+
+Salas@UPS-SCI-015 MINGW64 ~/Documents/Programacion-algoritmos/f-algoritmos-ej-2017 (master)
+$
