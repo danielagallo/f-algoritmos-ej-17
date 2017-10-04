@@ -1,0 +1,2 @@
+DEFINICIÓN DE CICLO REPETITIVO:
+permiten repetir una operación o secuencia de operaciones en función de ciertas condiciones.
